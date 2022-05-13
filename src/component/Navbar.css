@@ -46,7 +46,7 @@ nav .menuTab{
 
 .night{
     position: absolute;
-    height:500vh;
+    height:800vh;
     width:100%;
     background-color: black;
     transition: .5s all ease;
@@ -144,9 +144,28 @@ animation:sun 3s alternate infinite;
     display: block;
 }
 
+.night{
+    position: absolute;
+    height:800vh;
+    width:100%;
+    background-color: black;
+    transition: .5s all ease;
+   z-index:-10;
+}
 
 
 
+.lightDark{
+    position: absolute;
+    transition: .4s all ease;background-color: rgb(215, 215, 193);
+    height:550%;
+    width:100%;
+    
+    }
+    .whiteDark{
+    transition:.4s all ease;
+    
+    }
 
 
 
@@ -195,13 +214,21 @@ transition: .5s all ease;
 .lightDark{
 position: absolute;
 transition: .4s all ease;background-color: rgb(215, 215, 193);
-height:400%;
+height:450%;
 width:100%;
 
 }
 .whiteDark{
 transition:.4s all ease;
 
+}
+.night{
+    position: absolute;
+    height:800vh;
+    width:100%;
+    background-color: black;
+    transition: .5s all ease;
+   z-index:-10;
 }
 
 }

@@ -110,55 +110,69 @@ position:absolute;
 
 
 
-
-@media (max-width:768px)  {
-
-.contactCon{
+@media (max-width:768px) {
     
-}
-.contactBody{
-    display:flex;
-    flex-direction: column;
-}
-.contactFooter{
-    display:flex;
-    flex-direction: column;
-}
-
-
-.contactFooter button{
-margin-left:180px;
-margin-top: 40px;
-}
-
-}
-
-@media (max-width:320px) {
+    .contactCon{
+        display:flex;
+        flex-direction: column;
+    }
+    .contactFooter{
+        display: flex;
+        flex-direction: column;
+    }
     
-.contactCon{
-    margin-left:-50px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.contactFooter{
-    display:flex;
-    flex-flow:column;
-    align-items: center;
-}
-    .contactFooter input{
-    width:300px;
-    font-size:1.6rem;
     }
-    .contactFooter textarea{
-    width:300px;
-font-size:1.6rem;
+    
+    
+    @media (max-width:600px) {
+      .contactFooter textarea{
+            width:550px;
+        }
     }
-
-.contactFooter button{
-    margin-left:-20px;
-}
-
-}
+    
+    
+    @media (max-width:550px) {
+        .contactFooter textarea{
+              width:500px;
+          }
+      }
+    
+      
+    @media (max-width:500px) {
+        .contactFooter textarea{
+              width:400px;
+              font-size:1.5rem;
+          }
+          .contactFooter input{
+              width:400px;
+              font-size: 1.5rem;
+          }
+      }
+    
+      @media (max-width:423px) {
+        .contactFooter textarea{
+              width:300px;
+              font-size:1.5rem;
+          }
+          .contactFooter input{
+              width:300px;
+              font-size:1.5rem;
+          }
+      }
+    
+    
+      @media (max-width:350px) {
+         .contactHeader,.contactBody{
+             margin-left:-50px;
+         }
+        .contactFooter textarea{
+              width:300px;
+              font-size:1.5rem;
+              margin-left: -10px;
+          }
+          .contactFooter input{
+              width:300px;
+              font-size:1.5rem;
+            margin-left: -10px;
+          }
+      }

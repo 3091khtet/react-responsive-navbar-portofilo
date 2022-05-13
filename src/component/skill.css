@@ -292,35 +292,64 @@ border-radius: 50%;
 
 
 
-    @media (max-width:320px) {
-        .skillBar{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
-        .skillBar .bar{
-            width:250px;
-            height:15px;
-        }
-.skillImgCon{
-    width: 250px;
-    height: 200px;
-    margin-top: 50px;
-}
-.skillImgCon img{
-    width: 250px;
-    height: 200px;
-}
-
-.carousel-indicators{
-    margin-left:30px;
-}
-
-
-    }
+   
 
 
     
-    @media (max-width:768px) {
+@media (max-width:768px) {
         
+
+    .skillCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
+    .skillBar{
+        display: flex;
+        flex-direction: column;
+    }
+    .skillCon .footerImg {
+        display: flex;
+        flex-direction: column;
+        margin-top:50px;
+    }
+        .footerImg .skillImgCon{
+            margin-top:100px
+        }
+        }
+    
+    
+        @media (max-width:427px) {
+        
+    .skillBar .bar{
+        width:300px;
+        height:15px;
+    }
+    .footerImg .comingSoon h1{
+        margin-left:30px;
+    }
+    
+        }
+    
+    
+        @media (max-width:350px) {
+            .skillBar .bar{
+                width:320px;
+                height:12px;
+            }
+    .skillImgCon{
+        width:320px;
+    }
+        }
+    
+        @media (max-width:320px) {
+            .skillBar .bar{
+                width:250px;
+                height:12px;
+            }
+            .skillImgCon img{
+                width:250px;
+                height: 270px;
+            }
+            
+        }
