@@ -123,18 +123,18 @@ const scrollTop=()=>{
 <section className="mainContent">
 
 
-<motion.div 
+<div 
 
 
 
-className="homeCon" id="home" > 
+className="homeCon" id="home" data-aos="fade-right"> 
   
   <div 
   
   
-  className="homeContent">
-    <h1 className='display-5'>Hello! I'm a</h1>
-    <h1 className="type display-3">
+  className="homeContent"  data-aos="fade-left">
+    <h1 className='display-5'  data-aos="fade-right">Hello! I'm a</h1>
+    <h1 className="type display-3"  data-aos="fade-down">
     <Type 
   options={{
     strings: [" react Developer"," frontEndDeveloper","MernStackDeveloper"],
@@ -146,24 +146,26 @@ className="homeCon" id="home" >
       
        </h1>
     <h1  >passionate on IT and CS</h1>
-    <p className="firstP fs-2"  >I have been studying frontEnd Developing since last year(2021) and passionate on the web,android,desktop,window app in
+    <p className="firstP fs-2"  data-aos="fade-up-left">I have been studying frontEnd Developing since last year(2021) and passionate on the web,android,desktop,window app in
       this field.
     </p>
     
     </div>
     
    
-    <img src="https://scontent.frgn7-3.fna.fbcdn.net/v/t1.6435-9/136513663_1114826588979975_2738913944826466707_n.jpg?stp=c0.23.206.206a_dst-jpg_p206x206&_nc_cat=100&ccb=1-5&_nc_sid=da31f3&_nc_ohc=Yuw5ARQGNf4AX9tjiXG&tn=J6NrcZG2LTnox3zA&_nc_ht=scontent.frgn7-3.fna&oh=00_AT8nOPSu5LyIVsXgSlz0zxFqqt_KCgNfNCnTtgMxsO7FkQ&oe=62949DAD" alt=""/>   
+    <img 
+     data-aos="fade-up-left"
+    src="https://scontent.frgn7-3.fna.fbcdn.net/v/t1.6435-9/136513663_1114826588979975_2738913944826466707_n.jpg?stp=c0.23.206.206a_dst-jpg_p206x206&_nc_cat=100&ccb=1-5&_nc_sid=da31f3&_nc_ohc=Yuw5ARQGNf4AX9tjiXG&tn=J6NrcZG2LTnox3zA&_nc_ht=scontent.frgn7-3.fna&oh=00_AT8nOPSu5LyIVsXgSlz0zxFqqt_KCgNfNCnTtgMxsO7FkQ&oe=62949DAD" alt=""/>   
     
-</motion.div>
+</div>
 
 
 
 
 
-<div className="aboutCon " id="about" >
+<div className="aboutCon " id="about"  data-aos="fade-down-right">
 
-<div className="aboutContent">
+<div className="aboutContent"  data-aos="fade-down-right">
 <h1 class="display-2  text-danger">about me</h1>
   <p className="fs-3">My developing roadMap  is to reach Mern Stack flow and so, as backend Language,I'll use to 
     learn Node (express) ,mySql for  SQl and mongoose for NoSql. 
@@ -180,7 +182,7 @@ className="homeCon" id="home" >
   
 </div>
   
-  <div class="aboutImg">
+  <div class="aboutImg"  data-aos="flip-left">
     <img src="https://scontent.frgn7-2.fna.fbcdn.net/v/t1.6435-9/76956979_790645888064715_5283657819667562496_n.jpg?stp=c80.0.206.206a_dst-jpg_p206x206&_nc_cat=103&ccb=1-5&_nc_sid=da31f3&_nc_ohc=_gjf5CYCy3MAX-LVUii&_nc_ht=scontent.frgn7-2.fna&oh=00_AT8btWfNx3lWVPaw2xqJXsW_bWtW9VIwiz0OaiiIiJbLzA&oe=62933BA8"    alt="" />
     </div>
 
@@ -192,26 +194,23 @@ className="homeCon" id="home" >
 
 <div className="skillCon" id="skill"  
    >
-    
-
-
-    <div className="skillBar" >
+    <div className="skillBar"v data-aos="zoom-in-up"   >
   
-      <li>
+      <li data-aos="fade-left">
         <i className="ri-html5-line htmlIcon skillSubject"></i>
       <div className="bar"><div class="html"></div></div>
       </li>
       
       
       
-      <li>
+      <li data-aos="fade-left">
   <i className="ri-css3-line cssIcon skillSubject"></i>
       <div className="bar"><div className="css"></div></div>
       </li>
       
       
       
-      <li>
+      <li data-aos="fade-left">
         
        <SiJavascript className="jsIcon"/>
       <div className="bar"><div className="js"></div></div>
@@ -219,7 +218,7 @@ className="homeCon" id="home" >
       
       
       
-      <li>
+      <li data-aos="fade-left">
     <FaBootstrap className='bsIcon'/>
       <div className="bar"><div className="bs"></div></div>
       </li>
@@ -228,19 +227,19 @@ className="homeCon" id="home" >
       
       
       
-      <li>
+      <li data-aos="fade-right">
       <i className="ri-reactjs-line reactIcon skillSubject"></i>
       <div className="bar"><div className="react"></div></div>
       </li>
       
       
-      <li>
+      <li data-aos="fade-right">
       < FaGitAlt   className="gitIcon"/>
       <div class="bar"><div class="git"></div></div>
       </li>
       
       
-      <li>
+      <li data-aos="fade-right">
     <    SiMaterialui className="muIcon"/>
       <div class="bar"><div class="mu"></div></div>
       </li>
@@ -251,16 +250,16 @@ className="homeCon" id="home" >
       <hr />
      
       <div class="footerImg" >
-        <div class="comingSoon" >
-          <h1>study for coming soon!</h1>
-          <FaNodeJs className="node"/>
-        <SiMongodb className="mongoDb"   />
-        <SiMysql   className="sql" />
+        <div class="comingSoon"  data-aos="fade-up-left" >
+          <h1  data-aos="flip-up">study for coming soon!</h1>
+          <FaNodeJs className="node"    data-aos="flip-up"/>
+        <SiMongodb className="mongoDb"  data-aos="flip-up"  />
+        <SiMysql   className="sql"    data-aos="flip-up" />
         </div>
           
           
     
-          <div id="carouselExampleCaptions" class="carousel slide skillImgCon" data-bs-ride="carousel">
+          <div  data-aos="fade-down-left" id="carouselExampleCaptions" class="carousel slide skillImgCon" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -312,38 +311,38 @@ className="homeCon" id="home" >
 
   
 
-  <div className="contactCon" id="contact">
+  <div className="contactCon" id="contact"   data-aos="flip-up">
 
-<div className="contactHeader">
+<div className="contactHeader" data-aos="zoom-in-up">
 <h1 class="text-primary">Contact me</h1>
 <h2 class="text-secondary">get in touch</h2>
 </div>
 
 
-<div className="contactBody">
- <div className="map text-success">
+<div className="contactBody" data-aos="zoom-in-down">
+ <div className="map text-success"  data-aos="fade-down-right">
    <i className="ri-map-pin-line"></i>
    <h5>shwe pyi thar,Yangon</h5>
  </div>
 
- <div className="phone text-warning">
+ <div className="phone text-warning"   data-aos="fade-down-right">
    <i className="ri-phone-line"></i>
    <h5>+959785293156</h5>
  </div>
 
- <div className="email text-info">
+ <div className="email text-info"  data-aos="fade-down-right">
    <i className="ri-mail-line"></i>
    <h5>khtet3091@gmail.com</h5>
  </div>
 
 </div>
 
-<div className="contactFooter">
+<div className="contactFooter"  data-aos="fade-left">
 
-<input type="text" placeholder='enter your email.....' />
-<input type="text" placeholder='enter your password...........'/>
-<input type="text" placeholder='username.......'/>
-<textarea placeholder='comment.......'></textarea>
+<input type="text" placeholder='enter your email.....' data-aos="zoom-in-right"/>
+<input type="text" placeholder='enter your password...........'       />
+<input type="text" placeholder='username.......'      />
+<textarea placeholder='comment.......'      ></textarea>
 
 <button>send message   <GrSend className='send'/></button> 
 

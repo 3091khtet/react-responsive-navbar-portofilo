@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "./component/Navbar"
+import Port from "./Port"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       
 
-<Navbar/>
+<Port/>
 
 
       
