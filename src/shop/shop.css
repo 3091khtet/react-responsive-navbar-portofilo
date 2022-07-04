@@ -1,0 +1,90 @@
+.shopCon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+
+.con form{
+    padding: 10px;
+    border-radius: 20px;
+}
+.con input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+
+}
+.thingCon{
+    background-color: rgb(230, 247, 0);
+    border-radius:30px;
+    width:300px;
+    margin: 20px 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.thingCon img{
+    max-width:200px;
+    border-radius: 40px;
+
+}
+.shopCon img{
+    width:300px;
+}
+
+.model{
+    width:100%;
+    height: 100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0,0,0,0.5);
+    visibility: hidden;
+    opacity:0;
+    transform: scale(0);
+    overflow: hidden;
+    transition:.2s all ease;z-index:333;
+}
+
+.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.close{
+    color:red;
+    z-index:444;
+    font-size: 3rem;
+}
+
+
+.darkMode{
+    position: fixed;
+    z-index: 300;
+    right:50px;
+   top:1px;
+}
+.sun,.moon{
+    font-weight: 565;
+}
+.sunCon,.moonCon{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow:column;
+    transition: .5s  all ease;
+}
+.sunCon{
+    background-color: white;
+}
+.moonCon{
+    background-color: black;
+}
