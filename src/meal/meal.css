@@ -1,0 +1,33 @@
+.mealCon,.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h4{
+    max-width:600px;
+}
+
+.foodCon{
+
+    display:flex;
+    flex-wrap: wrap;
+    margin:40px auto;
+}
+.foodCon img{
+    width: 270px;
+ margin: 10px 20px;
+
+}
+
+.itemCon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemCon h3{
+    margin:30px 40px;
+}
+
